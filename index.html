@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculateur d'IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calculateur d'IMC</h1>
+    </header>
+
+    <div class="container">
+        <div class="info">
+            <h2>Qu'est-ce que l'IMC ?</h2>
+            <p>L'Indice de Masse Corporelle (IMC) est un indice utilisé pour évaluer si une personne a un poids santé. Il se calcule en fonction de la taille et du poids. L'IMC peut être utilisé pour évaluer les risques pour la santé liés au poids.</p>
+        </div>
+        
+        <div class="calculator">
+            <h2>Calcul de l'IMC</h2>
+            <label for="weight">Poids (kg) :</label>
+            <input type="number" id="weight" placeholder="Entrez votre poids en kg">
+            <label for="height">Taille (m) :</label>
+            <input type="number" id="height" placeholder="Entrez votre taille en m">
+            <button id="calculate">Calculer</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 par <i><b>TCHAMASSE Warapisse</b></i> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
